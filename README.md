@@ -1,6 +1,6 @@
 # Cyber Tracker
 
-Un crypto tracker donde puedes buscar y checar las crypto monedas
+Un crypto tracker donde puedes buscar y checar las crypto monedas usando la api de gecko coin el problema tiene un limite de request por minuto(30/m)
 
 ## Tabla de Contenidos
 
