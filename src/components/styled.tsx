@@ -31,5 +31,8 @@ export const InlineContainer=styled.div`
     justify-content: space-between;
     margin: 8px;
 `
-
+export const InputContainer=styled.div`
+margin-left:80px ;
+margin-bottom:16px ;
+`
 
