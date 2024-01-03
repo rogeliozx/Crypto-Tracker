@@ -1,7 +1,6 @@
 import { useState } from "react";
 import {
   Container,
-  HomeSection,
   InlineContainer,
   InputCustom,
   Subtitle,
@@ -23,7 +22,7 @@ export default function Home() {
     }
   };
   return (
-    <HomeSection>
+   
       <Container>
         {user ? (
           <>
@@ -33,6 +32,7 @@ export default function Home() {
               <Button
                 variant="contained"
                 color="secondary"
+                onClick={()=>navigate("/favorites", { state: { user } })}
                 endIcon={<StarBorderIcon />}
               >
                 Favoritos
@@ -49,7 +49,6 @@ export default function Home() {
           </>
         ) : (
           <>
-            {" "}
             <Title className="typewriter">Cyber Tracker</Title>
             <Subtitle className="typewriter-secundary">
               Introduce tu usario
@@ -58,6 +57,5 @@ export default function Home() {
           </>
         )}
       </Container>
-    </HomeSection>
   );
 }

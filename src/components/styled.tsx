@@ -5,12 +5,6 @@ export const Container = styled.div`
   text-align: center;
   width: 300px;
 `;
-
-export const HomeSection = styled.section`
-  width: 100vw;
-  height: 100vh;
-  background-color: #f7f202;
-`;
 export const Title = styled.h1`
   font-family: Cyber;
 `;

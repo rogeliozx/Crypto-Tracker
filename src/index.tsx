@@ -6,6 +6,7 @@ import Home from './Pages/Home';
 import CryptoList from './Pages/CryptoList';
 import Crypto from './stores/Crypto';
 import CryptoDetail from './Pages/CryptoDetail';
+import Favorites from './Pages/Favorites';
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
@@ -18,6 +19,7 @@ root.render(
       <Route index element={<Home/>}/>
       <Route path='/trending' element={<CryptoList/>}/>
       <Route path='/details' element={<CryptoDetail/>}/>
+      <Route path='/favorites' element={<Favorites/>}/>
      
     </Routes>
     </BrowserRouter>

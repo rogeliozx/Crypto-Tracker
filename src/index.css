@@ -5,10 +5,10 @@
 *{
     margin: 0;
 }
-h2 {
-    font-family: Cyber;
-    color: black;
+body{
+    background-color: #f7f202;
 }
+
 
 .typewriter  {
     overflow: hidden; /* Ensures the content is not revealed until the animation */
